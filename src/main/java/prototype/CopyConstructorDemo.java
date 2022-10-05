@@ -1,8 +1,6 @@
 package prototype;
 
-import java.util.Arrays;
-
-public class Demo {
+public class CopyConstructorDemo {
     public static void main(String[] args) {
         Employee myke = new Employee("Myke", new Address("Blablabla", "Sei la a cidade", "BR"));
 
