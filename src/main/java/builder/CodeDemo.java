@@ -1,5 +1,34 @@
 package builder;
 
+/*
+ * Myke Leony dos Santos Amorim.
+ * October 21, 2022.
+ *
+ * Exercise of Design Patterns in Java course (https://www.udemy.com/course/design-patterns-java/)
+ *
+ * https://www.linkedin.com/in/myke-amorim/
+ * https://github.com/mykeleony
+ */
+
+/*
+    * Problem description:
+    *
+    * You are asked to implement the Builder design pattern for rendering simple chunks of code.
+
+    Sample use of the builder you are asked to create:
+
+    CodeBuilder cb = new CodeBuilder("Person").addField("name", "String").addField("age", "int");
+    System.out.println(cb);
+
+    The expected output of the above code is:
+
+    public class Person
+    {
+      public String name;
+      public int age;
+    }
+* */
+
 class CodeBuilder {
     public StringBuilder code = new StringBuilder();
 
